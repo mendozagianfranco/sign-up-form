@@ -7,4 +7,109 @@
 body {
     height: 100vh;
     display: flex;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+input {
+    display: block;
+    font-family: inherit;
+    font-size: 100%;
+    width: 250px;
+    height: 30px;
+    border: 1px solid #e5e7eb;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #2e2e2e;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-img {
+    position: relative;
+    height: 100%;
+}
+
+.container-img img {
+    height: 100%;
+}
+
+.container-img p {
+    position: absolute;
+    color: #c4c4c4;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container-img a {
+    color: #969696;
+    text-decoration: underline;
+}
+
+.container {
+    background: #f9fafb;
+    width: 100%;
+}
+.titles {
+    padding-left: 30px;
+    margin-top: 100px;
+}
+
+.titles h2 {
+    padding: 20px 0;
+}
+
+.wrapper {
+    background: #fff;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.form__title {
+    margin-bottom: 20px;
+}
+
+.form__row {
+    display: flex;
+    margin: 20px 0;
+}
+
+.input__box input:focus {
+    outline-color: blue;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.input__box:nth-child(2) {
+    margin-left: 80px;
+}
+
+.form__bottom {
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+button {
+    background: #596d48;
+    border: none;
+    color: #fff;
+    padding: 15px 50px;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.log-in {
+    margin-top: 30px;
+}
+
+.log-in a {
+    color: #596d48;
 }
